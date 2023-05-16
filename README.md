@@ -19,6 +19,8 @@ Natural Language Generation (NLG) is the process of producing a natural language
 |          | 微博摘要                                                     | --                                             | [原始数据](https://www.jianshu.com/p/8f52352f0748?tdsourcetag=s_pcqq_aiomsg) [处理后数据](https://pan.baidu.com/share/init?surl=80aTaZe-5jopVBBJhBrTWg) 提取码：duba |
 |          | [中文摘要数据集汇总](https://zhuanlan.zhihu.com/p/341398288) |                                                |                                                              |
 
+
+
 ### Question Answering
 
 | Language | Dataset                                            | Paper                                                        | Download                                                     |
@@ -32,7 +34,10 @@ Natural Language Generation (NLG) is the process of producing a natural language
 |          | WebQA                                              | [Document](https://kexue.fm/archives/4338)                   | [Link](https://link.zhihu.com/?target=https%3A//pan.baidu.com/s/1pLXEYtd) 提取码6fbf |
 |          | KdConv                                             | [Link](https://arxiv.org/abs/2004.04100)                     | [Link](https://github.com/thu-coai/KdConv)                   |
 
+
+
 ### Open-domain Dialogue System
+
 | Language | Dataset              | Paper                                          | Download                                                     |
 | -------- | -------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
 | English  | DailyDialog          | [Link](https://arxiv.org/pdf/1710.03957v1.pdf) | [Link](http://yanran.li/dailydialog)                         |
@@ -42,6 +47,8 @@ Natural Language Generation (NLG) is the process of producing a natural language
 | Chinese  | 清华LCCC             | [Link](https://arxiv.org/abs/2008.03946)       | [Link](https://github.com/thu-coai/CDial-GPT)                |
 |          | 微博对话语料         | --                                             | [Link](https://github.com/codemayq/chinese_chatbot_corpus)   |
 |          | CrossWoz             | [Link](https://arxiv.org/abs/2002.11893)       | [Link](https://github.com/thu-coai/CrossWoz)                 |
+
+
 
 ### Story Generation
 
@@ -54,6 +61,8 @@ Natural Language Generation (NLG) is the process of producing a natural language
 |          | TVRecap                             | [Link](https://arxiv.org/pdf/2109.08833v2.pdf) | [Link](https://github.com/mingdachen/TVRecap)                |
 | Chinese  | Demi-Gods and Semi-Devils(天龙八部) |                                                |                                                              |
 
+
+
 ### Data-to-Text
 
 | Language | Dataset  | Paper                                          | Download                                                  |
@@ -64,9 +73,19 @@ Natural Language Generation (NLG) is the process of producing a natural language
 |          | XAlign   | [Link](https://arxiv.org/pdf/2202.00291v2.pdf) | [Link](https://github.com/tushar117/XAlign)               |
 |          | E2E      | [Link](https://arxiv.org/pdf/1706.09254v2.pdf) | [Link](http://www.macs.hw.ac.uk/InteractionLab/E2E/)      |
 
-#### Machine Translation
 
-#### Text-to-SQL
+
+### Machine Translation
+
+| Type         | Dataset       | Paper                                          | Download                                                     |
+| ------------ | ------------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| Multilingual | IWSLT         | [Link](https://arxiv.org/pdf/1910.06204v1.pdf) | [Link](https://github.com/carolscarton/iwslt2019)            |
+|              | WMT           | --                                             | [Link](https://statmt.org/wmt18/translation-task.html#download) |
+|              | OpenSubtitles | --                                             | [Link](https://opus.nlpl.eu/OpenSubtitles2016.php)           |
+
+
+
+### Text-to-SQL
 
 | Language | Dataset                   | Paper                                          | Download                                                     |
 | -------- | ------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
