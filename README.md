@@ -32,14 +32,28 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 #### Chinese
 
-- 
+- CMRC2018 [PDF](https://aclanthology.org/D19-1600/) [dataset](https://github.com/ymcui/cmrc2018)
+
+- DuReader Dataset 官方文档：[https://ai.baidu.com/broad/subordinate?dataset=dureader](https://link.zhihu.com/?target=https%3A//ai.baidu.com/broad/subordinate%3Fdataset%3Ddureader) 数据集下载链接：[https://github.com/baidu/DuRead](https://link.zhihu.com/?target=https%3A//github.com/baidu/DuReader)
+
+- WebQA
+
+  百度利用百度知道和其他资源，构建了一个这样的一个数据集，称为WebQA
+
+  相关描述：[https://kexue.fm/archives/4338](https://link.zhihu.com/?target=https%3A//kexue.fm/archives/4338)
+
+  数据集下载链接：[百度网盘，提取码：6fbf](https://link.zhihu.com/?target=https%3A//pan.baidu.com/s/1pLXEYtd)
+
+- KdConv [PDF](https://arxiv.org/abs/2004.04100) [Dataset](https://github.com/thu-coai/KdConv)
 
 ### Open-domain Dialogue System
 
 #### English
  - DailyDialogue
- - Persona
- - Empathatic
+ - PersonaChat
+ - Empathatic Dialogues
+ - Blended Skill Talk
+ - 
 
 ### Story Generation
 
