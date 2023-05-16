@@ -36,3 +36,10 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ### Open-domain Dialogue System
 
+#### English
+ - DailyDialogue
+ - Persona
+ - Empathatic
+
+### Story Generation
+
