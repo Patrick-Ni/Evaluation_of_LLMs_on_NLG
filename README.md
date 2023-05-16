@@ -9,73 +9,68 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ### Text Summarization
 
-#### English
-
-- CNN/DailyMail
-- NYT (New York Times)
-- XSum (Extreme summarization)
-- Gigaword
-
-#### Chinese
-
-- [清华新闻数据](http://thuctc.thunlp.org/) [处理后数据](https://pan.baidu.com/share/init?surl=a-CUtTc5xQFB9_EJaxDklA) 提取码：vhol 
-- [微博数据](https://www.jianshu.com/p/8f52352f0748?tdsourcetag=s_pcqq_aiomsg) [处理后数据](https://pan.baidu.com/share/init?surl=80aTaZe-5jopVBBJhBrTWg) 提取码：duba
-- [中文摘要数据集汇总](https://zhuanlan.zhihu.com/p/341398288)
+| Language | Dataset                                                      | Paper | Download                                                     |
+| -------- | ------------------------------------------------------------ | ----- | ------------------------------------------------------------ |
+| English  | CNN/DailyMail                                                |       |                                                              |
+|          | NYT (New York Times)                                         |       |                                                              |
+|          | XSum (Extreme summarization)                                 |       |                                                              |
+|          | Gigaword                                                     |       |                                                              |
+| Chinese  | 清华新闻                                                     |       | [原始数据](http://thuctc.thunlp.org/) [处理后数据](https://pan.baidu.com/share/init?surl=a-CUtTc5xQFB9_EJaxDklA) 取码：vhol |
+|          | 微博摘要                                                     |       | [原始数据](https://www.jianshu.com/p/8f52352f0748?tdsourcetag=s_pcqq_aiomsg) [处理后数据](https://pan.baidu.com/share/init?surl=80aTaZe-5jopVBBJhBrTWg) 提取码：duba |
+|          | [中文摘要数据集汇总](https://zhuanlan.zhihu.com/p/341398288) |       |                                                              |
 
 ### Question Answering
 
-#### English
-
-- SQuAD (StanfordQuestion Answering Dataset)
-
-- MS MARCO (Microsoft Machine Reading Comprehension)
-
-- WikiQA Corpus
-
-- WebQuestions
-  提出该数据集的论文：Semantic Parsing on Freebase from Question-Answer Pairs
-
-  数据集地址：https://worksheets.codalab.org/worksheets/0xba659fe363cb46e7a505c5b6a774dc8a
-
-#### Chinese
-
-- CMRC2018 [PDF](https://aclanthology.org/D19-1600/) [dataset](https://github.com/ymcui/cmrc2018)
-
-- DuReader Dataset 官方文档：[https://ai.baidu.com/broad/subordinate?dataset=dureader](https://link.zhihu.com/?target=https%3A//ai.baidu.com/broad/subordinate%3Fdataset%3Ddureader) 数据集下载链接：[https://github.com/baidu/DuRead](https://link.zhihu.com/?target=https%3A//github.com/baidu/DuReader)
-
-- WebQA
-
-  百度利用百度知道和其他资源，构建了一个这样的一个数据集，称为WebQA
-
-  相关描述：[https://kexue.fm/archives/4338](https://link.zhihu.com/?target=https%3A//kexue.fm/archives/4338)
-
-  数据集下载链接：[百度网盘，提取码：6fbf](https://link.zhihu.com/?target=https%3A//pan.baidu.com/s/1pLXEYtd)
-
-- KdConv [PDF](https://arxiv.org/abs/2004.04100) [Dataset](https://github.com/thu-coai/KdConv)
+| Language | Dataset                                            | Paper                                                        | Download                                                     |
+| -------- | -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| English  | SQuAD (StanfordQuestion Answering Dataset)         |                                                              |                                                              |
+|          | MS MARCO (Microsoft Machine Reading Comprehension) |                                                              |                                                              |
+|          | WikiQA Corpus                                      |                                                              |                                                              |
+|          | WebQuestions                                       | [PDF](https://aclanthology.org/D13-1160/)                    | [Link](https://worksheets.codalab.org/worksheets/0xba659fe363cb46e7a505c5b6a774dc8a) |
+| Chinese  | CMRC2018                                           | [PDF](https://aclanthology.org/D19-1600/)                    | [Link](https://github.com/ymcui/cmrc2018)                    |
+|          | DuReader Dataset                                   | [Document](https://link.zhihu.com/?target=https%3A//ai.baidu.com/broad/subordinate%3Fdataset%3Ddureader) | [Link](https://github.com/baidu/DuRead)                      |
+|          | WebQA                                              | [Document](https://kexue.fm/archives/4338)                   | [Link](https://link.zhihu.com/?target=https%3A//pan.baidu.com/s/1pLXEYtd) 提取码6fbf |
+|          | KdConv                                             | [PDF](https://arxiv.org/abs/2004.04100)                      | [Link](https://github.com/thu-coai/KdConv)                   |
 
 ### Open-domain Dialogue System
-
-#### English
- - DailyDialogue
- - PersonaChat
- - Empathatic Dialogues
- - Blended Skill Talk
-
-#### Chinese
-
-- 清华LCCC
-- 微博对话语料 [Dataset]([https://drive.google.com/file/d](https://link.zhihu.com/?target=https%3A//drive.google.com/file/d/1So-m83NdUHexfjJ912rQ4GItdLvnmJMD/view%3Fusp%3Dsharing))
-- CrossWoz [Dataset]([https://github.com/thu-coai/Cro](https://link.zhihu.com/?target=https%3A//github.com/thu-coai/CrossWOZ))
+| Language | Dataset              | Paper | Download                                     |
+| -------- | -------------------- | ----- | -------------------------------------------- |
+| English  | DailyDialog          |       |                                              |
+|          | PersonaChat          |       |                                              |
+|          | Empathatic Dialogues |       |                                              |
+|          | Blended Skill Talk   |       |                                              |
+| Chinese  | 清华LCCC             |       |                                              |
+|          | 微博对话语料         |       | [Link](https://drive.google.com/file/d)      |
+|          | CrossWoz             |       | [Link](https://github.com/thu-coai/CrossWoz) |
+|          |                      |       |                                              |
 
 ### Story Generation
 
-#### English
+| Language | Dataset                             | Paper | Download |
+| -------- | ----------------------------------- | ----- | -------- |
+| English  | ROCStories                          |       |          |
+|          | WritingPrompts                      |       |          |
+|          | Scifi_TV_Shows                      |       |          |
+|          | HANNA                               |       |          |
+|          | TVMegaSite                          |       |          |
+|          | Fandom                              |       |          |
+| Chinese  | Demi-Gods and Semi-Devils(天龙八部) |       |          |
+|          |                                     |       |          |
 
-- ROCStories
-- WritingPrompts
-- Scifi_TV_Shows
-- HANNA
-- TVMegaSite
-- Fandom
+### Data-to-Text
 
-#### Chinese
+| Language | Dataset | Paper | Download |
+| -------- | ------- | ----- | -------- |
+|          |         |       |          |
+|          |         |       |          |
+|          |         |       |          |
+
+#### Machine Translation
+
+#### Text-to-SQL
+
+| Language | Dataset | Paper | Download |
+| -------- | ------- | ----- | -------- |
+| English  | WikiSQL |       |          |
+|          | Spider  |       |          |
+|          |         |       |          |
