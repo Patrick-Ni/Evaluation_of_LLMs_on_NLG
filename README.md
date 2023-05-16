@@ -27,8 +27,15 @@ Natural Language Generation (NLG) is the process of producing a natural language
 #### English
 
 - SQuAD (StanfordQuestion Answering Dataset)
+
 - MS MARCO (Microsoft Machine Reading Comprehension)
+
 - WikiQA Corpus
+
+- WebQuestions
+  提出该数据集的论文：Semantic Parsing on Freebase from Question-Answer Pairs
+
+  数据集地址：https://worksheets.codalab.org/worksheets/0xba659fe363cb46e7a505c5b6a774dc8a
 
 #### Chinese
 
@@ -53,7 +60,22 @@ Natural Language Generation (NLG) is the process of producing a natural language
  - PersonaChat
  - Empathatic Dialogues
  - Blended Skill Talk
- - 
+
+#### Chinese
+
+- 清华LCCC
+- 微博对话语料 [Dataset]([https://drive.google.com/file/d](https://link.zhihu.com/?target=https%3A//drive.google.com/file/d/1So-m83NdUHexfjJ912rQ4GItdLvnmJMD/view%3Fusp%3Dsharing))
+- CrossWoz [Dataset]([https://github.com/thu-coai/Cro](https://link.zhihu.com/?target=https%3A//github.com/thu-coai/CrossWOZ))
 
 ### Story Generation
 
+#### English
+
+- ROCStories
+- WritingPrompts
+- Scifi_TV_Shows
+- HANNA
+- TVMegaSite
+- Fandom
+
+#### Chinese
