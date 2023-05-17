@@ -61,3 +61,16 @@ Natural Language Generation (NLG) is the process of producing a natural language
 |          | SEDE                      | [Link](https://arxiv.org/pdf/2106.05006v1.pdf) | [Link](https://github.com/hirupert/sede)                     |
 | Chinese  | CSpider                   | --                                             | [Link](https://github.com/taolusi/chisp)                     |
 |          | 百度飞浆Text2SQL BASELINE | --                                             | [Link](https://github.com/PaddlePaddle/Research/tree/master/NLP/Text2SQL-BASELINE) |
+
+
+
+### LLMs
+
+- [ChatGPT](https://chat.openai.com/auth/login) through APIs
+- [Vicuna-13B](https://github.com/lm-sys/FastChat)
+- [LLaMa-13B](https://github.com/facebookresearch/llama)
+- [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)
+- [Alpaca-13B](https://github.com/tatsu-lab/stanford_alpaca)
+- [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b)
+- [ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b)
+- [Oasst-Pythia-12B](https://huggingface.co/OpenAssistant)
