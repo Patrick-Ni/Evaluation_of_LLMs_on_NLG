@@ -34,11 +34,11 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ### Story Generation
 
-| Language | Dataset        | Paper                                                        | Download                                                  |
-| -------- | -------------- | ------------------------------------------------------------ | --------------------------------------------------------- |
-| English  | ROCStories     | [Link](https://aclanthology.org/N16-1098.pdf)                | [Link](https://cs.rochester.edu/nlp/rocstories/)          |
-|          | WritingPrompts | [Link](https://arxiv.org/pdf/1805.04833v1.pdf)               | [Link](https://www.kaggle.com/ratthachat/writing-prompts) |
-| Chinese  | LOT            | [Link](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00469/110537/LOT-A-Story-Centric-Benchmark-for-Evaluating) | [Link]                                                    |
+| Language | Dataset        | Paper                                                        | Download                                                     |
+| -------- | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| English  | ROCStories     | [Link](https://aclanthology.org/N16-1098.pdf)                | [Link](https://cs.rochester.edu/nlp/rocstories/)             |
+|          | WritingPrompts | [Link](https://arxiv.org/pdf/1805.04833v1.pdf)               | [Link](https://www.kaggle.com/ratthachat/writing-prompts)    |
+| Chinese  | LOT            | [Link](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00469/110537/LOT-A-Story-Centric-Benchmark-for-Evaluating) | [Link](https://cloud.tsinghua.edu.cn/d/0cf033b0c7c049be855d/) |
 
 
 
