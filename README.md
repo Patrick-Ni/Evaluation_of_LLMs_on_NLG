@@ -44,13 +44,11 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ### Data-to-Text
 
-| Language | Dataset  | Paper                                          | Download                                                  |
-| -------- | -------- | ---------------------------------------------- | --------------------------------------------------------- |
-| English  | WebNLG   | [Link](https://aclanthology.org/P17-1017.pdf)  | [Link](https://webnlg-challenge.loria.fr/)                |
-|          | Rotowire | [Link](https://arxiv.org/pdf/1707.08052v1.pdf) | [Link]()                                                  |
-|          | ToTTo    | [Link](https://arxiv.org/pdf/2004.14373v3.pdf) | [Link](https://github.com/google-research-datasets/totto) |
-|          | XAlign   | [Link](https://arxiv.org/pdf/2202.00291v2.pdf) | [Link](https://github.com/tushar117/XAlign)               |
-|          | E2E      | [Link](https://arxiv.org/pdf/1706.09254v2.pdf) | [Link](http://www.macs.hw.ac.uk/InteractionLab/E2E/)      |
+| Language | Dataset | Paper                                          | Download                                                  |
+| -------- | ------- | ---------------------------------------------- | --------------------------------------------------------- |
+| English  | WebNLG  | [Link](https://aclanthology.org/P17-1017.pdf)  | [Link](https://webnlg-challenge.loria.fr/)                |
+|          | ToTTo   | [Link](https://arxiv.org/pdf/2004.14373v3.pdf) | [Link](https://github.com/google-research-datasets/totto) |
+|          | E2E     | [Link](https://arxiv.org/pdf/1706.09254v2.pdf) | [Link](http://www.macs.hw.ac.uk/InteractionLab/E2E/)      |
 
 
 
@@ -61,7 +59,5 @@ Natural Language Generation (NLG) is the process of producing a natural language
 | English  | WikiSQL                   | [Link](http://arxiv.org/abs/1709.00103)        | [Link](https://github.com/salesforce/WikiSQL)                |
 |          | Spider                    | [Link](https://arxiv.org/abs/1809.08887)       | [Link](https://github.com/taoyds/spider)                     |
 |          | SEDE                      | [Link](https://arxiv.org/pdf/2106.05006v1.pdf) | [Link](https://github.com/hirupert/sede)                     |
-|          | SParC                     | [Link](https://arxiv.org/pdf/1906.02285v1.pdf) | [Link](https://github.com/taoyds/sparc)                      |
-|          | SPLASH                    | [Link](https://arxiv.org/pdf/2005.02539v2.pdf) | [Link](https://github.com/MSR-LIT/Splash)                    |
 | Chinese  | CSpider                   | --                                             | [Link](https://github.com/taolusi/chisp)                     |
 |          | 百度飞浆Text2SQL BASELINE | --                                             | [Link](https://github.com/PaddlePaddle/Research/tree/master/NLP/Text2SQL-BASELINE) |
