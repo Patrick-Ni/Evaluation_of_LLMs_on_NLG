@@ -74,3 +74,5 @@ Natural Language Generation (NLG) is the process of producing a natural language
 - [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b)
 - [ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b)
 - [Oasst-Pythia-12B](https://huggingface.co/OpenAssistant)
+- GPT4ALL
+- Open-LLaMA
