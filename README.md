@@ -68,7 +68,7 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 - [ChatGPT](https://chat.openai.com/auth/login) through APIs
 - [Vicuna-13B](https://github.com/lm-sys/FastChat) / [Chinese-Vicuna-13B](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-13b-belle-and-guanaco)
-- [LLaMA-13B](https://github.com/facebookresearch/llama) / [LLaMa-13B-Chinese-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki)
+- [LLaMa-13B-Chinese-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki)
 - [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)
 - [Alpaca-13B](https://github.com/tatsu-lab/stanford_alpaca) / [Chinese-Alpaca-13B](https://huggingface.co/shibing624/chinese-alpaca-plus-13b-hf)
 - [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b)
