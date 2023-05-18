@@ -66,13 +66,13 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ### LLMs
 
-- [ChatGPT](https://chat.openai.com/auth/login) through APIs
+- [ChatGPT](https://chat.openai.com/auth/login) through APIs $\checkmark$
 - [Vicuna-13B](https://github.com/lm-sys/FastChat) / [Chinese-Vicuna-13B](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-13b-belle-and-guanaco)
-- [LLaMa-13B-Chinese-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki)
+- [LLaMa-13B-Chinese-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) $\checkmark$
 - [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)
-- [Alpaca-13B](https://github.com/tatsu-lab/stanford_alpaca) / [Chinese-Alpaca-13B](https://huggingface.co/shibing624/chinese-alpaca-plus-13b-hf)
+- [Alpaca-13B](https://github.com/tatsu-lab/stanford_alpaca)
 - [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b)
-- [ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b)
-- [Oasst-Pythia-12B](https://huggingface.co/OpenAssistant)
+- [ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b)  $\checkmark$
+- [Oasst-Pythia-12B ](https://huggingface.co/OpenAssistant) $\checkmark$
 - [GPT4ALL](https://huggingface.co/nomic-ai/gpt4all-13b-snoozy?text=My+name+is+Julien+and+I+like+to)
 - [Open-LLaMA](https://github.com/openlm-research/open_llama)
