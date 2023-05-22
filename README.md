@@ -12,7 +12,7 @@ Natural Language Generation (NLG) is the process of producing a natural language
 | Language | Dataset                                                      | Paper                                          | Download                                                     |
 | -------- | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------------------ |
 | English  | CNN/DailyMail                                                | [Link](https://arxiv.org/pdf/1602.06023v5.pdf) | [Link](https://github.com/abisee/cnn-dailymail)              |
-|          | XSum (Extreme summarization)                                 | [Link](https://arxiv.org/pdf/1808.08745v1.pdf) | [Linvhok](https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset) |
+|          | XSum (Extreme summarization)                                 | [Link](https://arxiv.org/pdf/1808.08745v1.pdf) | [Link](https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset) |
 | Chinese  | 清华新闻                                                     | --                                             | [原始数据](http://thuctc.thunlp.org/) [处理后数据](https://pan.baidu.com/share/init?surl=a-CUtTc5xQFB9_EJaxDklA) 取码：vhol |
 |          | 微博摘要                                                     | --                                             | [原始数据](https://www.jianshu.com/p/8f52352f0748?tdsourcetag=s_pcqq_aiomsg) [处理后数据](https://pan.baidu.com/share/init?surl=80aTaZe-5jopVBBJhBrTWg) 提取码：duba |
 |          | [中文摘要数据集汇总](https://zhuanlan.zhihu.com/p/341398288) |                                                |                                                              |
@@ -28,7 +28,8 @@ Natural Language Generation (NLG) is the process of producing a natural language
 |          | Empathatic Dialogues | [Link](https://arxiv.org/abs/1811.00207)       | [Link](https://www.kaggle.com/datasets/atharvjairath/empathetic-dialogues-facebook-ai) |
 | Chinese  | 清华LCCC             | [Link](https://arxiv.org/abs/2008.03946)       | [Link](https://github.com/thu-coai/CDial-GPT)                |
 |          | 微博对话语料         | --                                             | [Link](https://github.com/codemayq/chinese_chatbot_corpus)   |
-|          | CrossWoz             | [Link](https://arxiv.org/abs/2002.11893)       | [Link](https://github.com/thu-coai/CrossWoz)                 |
+
+For open-domain dialogue generation, we let LLMs to generate the response of last turn of conversation, with the help of extra information contained in the dataset.
 
 
 
@@ -67,12 +68,12 @@ Natural Language Generation (NLG) is the process of producing a natural language
 ### LLMs
 
 - [ChatGPT](https://chat.openai.com/auth/login) through APIs $\checkmark$
-- [Vicuna-13B](https://github.com/lm-sys/FastChat) / [Chinese-Vicuna-13B](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-13b-belle-and-guanaco)
+- [Vicuna-13B](https://github.com/lm-sys/FastChat) / [Chinese-Vicuna-13B](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-13b-belle-and-guanaco) $\checkmark$ / 
 - [LLaMa-13B-Chinese-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) $\checkmark$
-- [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)
-- [Alpaca-13B](https://github.com/tatsu-lab/stanford_alpaca)
-- [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b)
+- [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0) $\checkmark$
+- [Alpaca-lora-7B](https://github.com/tatsu-lab/stanford_alpaca)  $\checkmark$
+- [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b) $\checkmark$
 - [ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b)  $\checkmark$
 - [Oasst-Pythia-12B ](https://huggingface.co/OpenAssistant) $\checkmark$
-- [GPT4ALL](https://huggingface.co/nomic-ai/gpt4all-13b-snoozy?text=My+name+is+Julien+and+I+like+to)
-- [Open-LLaMA](https://github.com/openlm-research/open_llama)
+- [GPT4ALL ](https://huggingface.co/nomic-ai/gpt4all-13b-snoozy?text=My+name+is+Julien+and+I+like+to)$\checkmark$
+- [Open-LLaMA](https://github.com/openlm-research/open_llama) $\checkmark$
