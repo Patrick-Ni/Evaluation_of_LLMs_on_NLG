@@ -7,7 +7,7 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ## Tasks and Datasets
 
-### Text Summarization
+### Text Summarization$\checkmark$
 
 | Language | Dataset                                                      | Paper                                          | Download                                                     |
 | -------- | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------------------ |
@@ -19,7 +19,7 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 
 
-### Open-domain Dialogue System
+### Open-domain Dialogue System$\checkmark$
 
 | Language | Dataset              | Paper                                          | Download                                                     |
 | -------- | -------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
@@ -27,13 +27,12 @@ Natural Language Generation (NLG) is the process of producing a natural language
 |          | PersonaChat          | [Link](https://arxiv.org/abs/1801.07243)       | [Link](https://www.kaggle.com/datasets/atharvjairath/personachat) |
 |          | Empathatic Dialogues | [Link](https://arxiv.org/abs/1811.00207)       | [Link](https://www.kaggle.com/datasets/atharvjairath/empathetic-dialogues-facebook-ai) |
 | Chinese  | 清华LCCC             | [Link](https://arxiv.org/abs/2008.03946)       | [Link](https://github.com/thu-coai/CDial-GPT)                |
-|          | 微博对话语料         | --                                             | [Link](https://github.com/codemayq/chinese_chatbot_corpus)   |
 
 For open-domain dialogue generation, we let LLMs to generate the response of last turn of conversation, with the help of extra information contained in the dataset.
 
 
 
-### Story Generation
+### Controllable Story Generation
 
 | Language | Dataset        | Paper                                                        | Download                                                     |
 | -------- | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -67,13 +66,13 @@ For open-domain dialogue generation, we let LLMs to generate the response of las
 
 ### LLMs
 
-- [ChatGPT](https://chat.openai.com/auth/login) through APIs $\checkmark$
+- [ChatGPT](https://chat.openai.com/auth/login) through APIs
 - [Vicuna-13B](https://github.com/lm-sys/FastChat) / [Chinese-Vicuna-13B](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-13b-belle-and-guanaco) $\checkmark$ / 
-- [LLaMa-13B-Chinese-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) $\checkmark$
-- [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0) $\checkmark$
-- [Alpaca-lora-7B](https://github.com/tatsu-lab/stanford_alpaca)  $\checkmark$
-- [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b) $\checkmark$
-- [ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b)  $\checkmark$
-- [Oasst-Pythia-12B ](https://huggingface.co/OpenAssistant) $\checkmark$
-- [GPT4ALL ](https://huggingface.co/nomic-ai/gpt4all-13b-snoozy?text=My+name+is+Julien+and+I+like+to)$\checkmark$
-- [Open-LLaMA](https://github.com/openlm-research/open_llama) $\checkmark$
+- [LLaMa-13B-Chinese-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) $\checkmark$ DS生成结束，其他没动
+- [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)
+- [Alpaca-lora-7B](https://github.com/tatsu-lab/stanford_alpaca)  $\checkmark$ DS结束，TS：CNN,WEIBO结束，Xsum跑了一半炸了，放弃了thunews了
+- [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b) 
+- [ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b)  
+- [Oasst-Pythia-12B ](https://huggingface.co/OpenAssistant) 
+- [GPT4ALL ](https://huggingface.co/nomic-ai/gpt4all-13b-snoozy?text=My+name+is+Julien+and+I+like+to)
+- [Open-LLaMA](https://github.com/openlm-research/open_llama) 
