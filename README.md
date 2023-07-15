@@ -72,9 +72,9 @@ For open-domain dialogue generation, we let LLMs to generate the response of las
 - [Chinese-Alpaca-13b](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki)  DS结束
 - [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0) （无中文能力） DS结束
 -  [Alpaca-lora-7B](https://github.com/tatsu-lab/stanford_alpaca)  DS结束，TS：Weibo结束，CNN_DailyMail在piji1上跑
-- [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b)  DS：PC 887 in piji1
+- [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b)  DS结束
 - [ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b)  DS结束
 - [Oasst-Pythia-12B ](https://huggingface.co/OpenAssistant) DS结束
-- [GPT4ALL ](https://huggingface.co/nomic-ai/gpt4all-13b-snoozy?text=My+name+is+Julien+and+I+like+to) DS：ED,DD,PC 结束，LCCC在151上
-- [Open-LLaMA](https://github.com/openlm-research/open_llama)  DS：ED 在151上，其他的在piji1上
-- Flan-T5-XXL
+- [GPT4ALL ](https://huggingface.co/nomic-ai/gpt4all-13b-snoozy?text=My+name+is+Julien+and+I+like+to) DS
+- [Open-LLaMA](https://github.com/openlm-research/open_llama)  DS
+- Flan-T5-XXL （无中文能力）
