@@ -7,19 +7,17 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ## Tasks and Datasets
 
-### Text Summarization$\checkmark$
+### Text Summarization
 
-| Language | Dataset                                                      | Paper                                          | Download                                                     |
-| -------- | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------------------ |
-| English  | CNN/DailyMail                                                | [Link](https://arxiv.org/pdf/1602.06023v5.pdf) | [Link](https://github.com/abisee/cnn-dailymail)              |
-|          | XSum (Extreme summarization)                                 | [Link](https://arxiv.org/pdf/1808.08745v1.pdf) | [Link](https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset) |
-| Chinese  | 清华新闻                                                     | --                                             | [原始数据](http://thuctc.thunlp.org/) [处理后数据](https://pan.baidu.com/share/init?surl=a-CUtTc5xQFB9_EJaxDklA) 取码：vhol |
-|          | 微博摘要                                                     | --                                             | [原始数据](https://www.jianshu.com/p/8f52352f0748?tdsourcetag=s_pcqq_aiomsg) [处理后数据](https://pan.baidu.com/share/init?surl=80aTaZe-5jopVBBJhBrTWg) 提取码：duba |
-|          | [中文摘要数据集汇总](https://zhuanlan.zhihu.com/p/341398288) |                                                |                                                              |
+| Language | Dataset                      | Paper                                          | Download                                                     |
+| -------- | ---------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| English  | CNN/DailyMail                | [Link](https://arxiv.org/pdf/1602.06023v5.pdf) | [Link](https://github.com/abisee/cnn-dailymail)              |
+|          | XSum (Extreme summarization) | [Link](https://arxiv.org/pdf/1808.08745v1.pdf) | [Link](https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset) |
+|          | LCSTS                        | --                                             | [原始数据](https://www.jianshu.com/p/8f52352f0748?tdsourcetag=s_pcqq_aiomsg) [处理后数据](https://pan.baidu.com/share/init?surl=80aTaZe-5jopVBBJhBrTWg) 提取码：duba |
 
 
 
-### Open-domain Dialogue System$\checkmark$
+### Open-domain Dialogue System
 
 | Language | Dataset              | Paper                                          | Download                                                     |
 | -------- | -------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
@@ -27,8 +25,6 @@ Natural Language Generation (NLG) is the process of producing a natural language
 |          | PersonaChat          | [Link](https://arxiv.org/abs/1801.07243)       | [Link](https://www.kaggle.com/datasets/atharvjairath/personachat) |
 |          | Empathatic Dialogues | [Link](https://arxiv.org/abs/1811.00207)       | [Link](https://www.kaggle.com/datasets/atharvjairath/empathetic-dialogues-facebook-ai) |
 | Chinese  | 清华LCCC             | [Link](https://arxiv.org/abs/2008.03946)       | [Link](https://github.com/thu-coai/CDial-GPT)                |
-
-For open-domain dialogue generation, we let LLMs to generate the response of last turn of conversation, with the help of extra information contained in the dataset.
 
 
 
@@ -52,29 +48,30 @@ For open-domain dialogue generation, we let LLMs to generate the response of las
 
 
 
-### Text-to-SQL
+### Style Transfer
 
-| Language | Dataset | Paper                                               | Download                                                     |
-| -------- | ------- | --------------------------------------------------- | ------------------------------------------------------------ |
-| English  | WikiSQL | [Link](http://arxiv.org/abs/1709.00103)             | [Link](https://github.com/salesforce/WikiSQL)                |
-|          | Spider  | [Link](https://arxiv.org/abs/1809.08887)            | [Link](https://github.com/taoyds/spider)                     |
-|          | SEDE    | [Link](https://arxiv.org/pdf/2106.05006v1.pdf)      | [Link](https://github.com/hirupert/sede)                     |
-| Chinese  | CSpider | --                                                  | [Link](https://github.com/taolusi/chisp)                     |
-|          | Chase   | [Link](https://aclanthology.org/2021.acl-long.180/) | [Link](https://github.com/xjtu-intsoft/chase/tree/page/data) |
+| Language | Dataset | Paper                                                        | Download                                                     |
+| -------- | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| English  | Yelp    | [Link](https://arxiv.org/abs/1705.09655)                     | [Link](https://github.com/shentianxiao/language-style-transfer/tree/master) |
+|          | Bible   | [Link](https://royalsocietypublishing.org/doi/full/10.1098/rsos.171920) | [Link](https://github.com/keithecarlson/StyleTransferBibleData) |
 
 
 
 ### LLMs
 
-- [ChatGPT](https://chat.openai.com/auth/login) DS结束
-- [Vicuna-13B](https://github.com/lm-sys/FastChat)  DS结束
-- [Chinese-Vicuna-13B](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-13b-belle-and-guanaco)  DS: ED,PC结束，DD在piji2，LCCC有问题
-- [Chinese-Alpaca-13b](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki)  DS结束
-- [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0) （无中文能力） DS结束
--  [Alpaca-lora-7B](https://github.com/tatsu-lab/stanford_alpaca)  DS结束，TS：Weibo结束，CNN_DailyMail在piji1上跑
-- [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b)  DS结束
-- [ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b)  DS结束
-- [Oasst-Pythia-12B ](https://huggingface.co/OpenAssistant) DS结束
-- [GPT4ALL ](https://huggingface.co/nomic-ai/gpt4all-13b-snoozy?text=My+name+is+Julien+and+I+like+to) DS
-- [Open-LLaMA](https://github.com/openlm-research/open_llama)  DS
-- Flan-T5-XXL （无中文能力）
+- [ChatGPT](https://chat.openai.com/auth/login)
+- [ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b)
+- [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)  $\checkmark$ 
+- Flan-T5-XXL
+- [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)
+- [Open-LLaMA](https://github.com/openlm-research/open_llama) 
+- [LLaMA2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)
+- [Vicuna-13B](https://github.com/lm-sys/FastChat) 
+- [Chinese-Vicuna-13B](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-13b-belle-and-guanaco) 
+- [Alpaca-lora-7B](https://github.com/tatsu-lab/stanford_alpaca)
+- [Chinese-Alpaca-13b](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) 
+- [GPT4ALL ](https://huggingface.co/nomic-ai/gpt4all-13b-snoozy?text=My+name+is+Julien+and+I+like+to)
+- [Qwen-7b-chat](https://huggingface.co/Qwen/Qwen-7B-Chat)
+- [Baichuan-13b-chat](https://huggingface.co/baichuan-inc/Baichuan-13B-Chat)
+-  [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b)
+- [Oasst-Pythia-12B ](https://huggingface.co/OpenAssistant)
