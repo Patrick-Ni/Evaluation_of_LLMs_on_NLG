@@ -62,7 +62,7 @@ Natural Language Generation (NLG) is the process of producing a natural language
 - [ChatGPT](https://chat.openai.com/auth/login)
 - [ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b)
 - [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)  $\checkmark$ 
-- Flan-T5-XXL
+- [Flan-T5-XXL](https://huggingface.co/google/flan-t5-xxl)
 - [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)
 - [Open-LLaMA](https://github.com/openlm-research/open_llama) 
 - [LLaMA2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)
@@ -75,3 +75,8 @@ Natural Language Generation (NLG) is the process of producing a natural language
 - [Baichuan-13b-chat](https://huggingface.co/baichuan-inc/Baichuan-13B-Chat)
 -  [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b)
 - [Oasst-Pythia-12B ](https://huggingface.co/OpenAssistant)
+
+
+
+scp -o 'ProxyJump nuaanlp@18.tcp.cpolar.top:10491' xfni@172.18.101.151:/data/xfni/code/Evaluation_of_LLMs/data/Text_Summarization/XSum/* /Users/nixuanfan/Evaluation_of_LLMs/data/Text_Summarization/XSum/
+
