@@ -9,22 +9,22 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ### Text Summarization
 
-| Language | Dataset                      | Paper                                          | Download                                                     |
-| -------- | ---------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
-| English  | CNN/DailyMail                | [Link](https://arxiv.org/pdf/1602.06023v5.pdf) | [Link](https://github.com/abisee/cnn-dailymail)              |
-|          | XSum (Extreme summarization) | [Link](https://arxiv.org/pdf/1808.08745v1.pdf) | [Link](https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset) |
-|          | LCSTS                        | --                                             | [原始数据](https://www.jianshu.com/p/8f52352f0748?tdsourcetag=s_pcqq_aiomsg) [处理后数据](https://pan.baidu.com/share/init?surl=80aTaZe-5jopVBBJhBrTWg) 提取码：duba |
+| Language | Dataset                      | Paper                                          | Download                                                     |      |
+| -------- | ---------------------------- | ---------------------------------------------- | ------------------------------------------------------------ | ---- |
+| English  | CNN/DailyMail                | [Link](https://arxiv.org/pdf/1602.06023v5.pdf) | [Link](https://github.com/abisee/cnn-dailymail)              |      |
+|          | XSum (Extreme summarization) | [Link](https://arxiv.org/pdf/1808.08745v1.pdf) | [Link](https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset) |      |
+| Chances  | LCSTS                        | --                                             | [原始数据](https://www.jianshu.com/p/8f52352f0748?tdsourcetag=s_pcqq_aiomsg) [处理后数据](https://pan.baidu.com/share/init?surl=80aTaZe-5jopVBBJhBrTWg) 提取码：duba |      |
 
 
 
 ### Open-domain Dialogue System
 
-| Language | Dataset              | Paper                                          | Download                                                     |
-| -------- | -------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
-| English  | DailyDialog          | [Link](https://arxiv.org/pdf/1710.03957v1.pdf) | [Link](http://yanran.li/dailydialog)                         |
-|          | PersonaChat          | [Link](https://arxiv.org/abs/1801.07243)       | [Link](https://www.kaggle.com/datasets/atharvjairath/personachat) |
-|          | Empathatic Dialogues | [Link](https://arxiv.org/abs/1811.00207)       | [Link](https://www.kaggle.com/datasets/atharvjairath/empathetic-dialogues-facebook-ai) |
-| Chinese  | 清华LCCC             | [Link](https://arxiv.org/abs/2008.03946)       | [Link](https://github.com/thu-coai/CDial-GPT)                |
+| Language | Dataset              | Test Input                      | Test Output                  | Train Input                      | Train Output                 | Paper                                          | Download                                                     |
+| -------- | -------------------- | ------------------------------- | ---------------------------- | -------------------------------- | ---------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| English  | DailyDialog          | max: 663, min: 129, avg: 246.57 | max:246, min: 3, avg: 16.55  | max: 1099, min: 128, avg: 247.60 | max: 313, min: 2, avg: 16.19 | [Link](https://arxiv.org/pdf/1710.03957v1.pdf) | [Link](http://yanran.li/dailydialog)                         |
+|          | PersonaChat          | max: 529, min: 273, avg: 372.28 | max: 32, min: 5, avg: 13.53  |                                  |                              | [Link](https://arxiv.org/abs/1801.07243)       | [Link](https://www.kaggle.com/datasets/atharvjairath/personachat) |
+|          | Empathatic Dialogues | max: 380, min: 148, avg: 201.64 | max: 110, min: 2, avg: 17.85 | max: 400, min: 146, avg: 193.13  | max: 135 min: 2, avg: 16.80  | [Link](https://arxiv.org/abs/1811.00207)       | [Link](https://www.kaggle.com/datasets/atharvjairath/empathetic-dialogues-facebook-ai) |
+| Chinese  | 清华LCCC             | max: 848, min: 214, avg: 264.73 | max: 347, min: 3, avg: 28.27 | max: 1666, min: 213, avg: 278.59 | max: 314, min: 2, avg: 26.98 | [Link](https://arxiv.org/abs/2008.03946)       | [Link](https://github.com/thu-coai/CDial-GPT)                |
 
 
 
