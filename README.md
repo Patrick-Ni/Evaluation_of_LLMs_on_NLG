@@ -9,11 +9,11 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ### Text Summarization
 
-| Language | Dataset                      | Paper                                          | Download                                                     |      |
-| -------- | ---------------------------- | ---------------------------------------------- | ------------------------------------------------------------ | ---- |
-| English  | CNN/DailyMail                | [Link](https://arxiv.org/pdf/1602.06023v5.pdf) | [Link](https://github.com/abisee/cnn-dailymail)              |      |
-|          | XSum (Extreme summarization) | [Link](https://arxiv.org/pdf/1808.08745v1.pdf) | [Link](https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset) |      |
-| Chances  | LCSTS                        | --                                             | [原始数据](https://www.jianshu.com/p/8f52352f0748?tdsourcetag=s_pcqq_aiomsg) [处理后数据](https://pan.baidu.com/share/init?surl=80aTaZe-5jopVBBJhBrTWg) 提取码：duba |      |
+| Language | Dataset                      | Test Input         | Test Output     | Train Input       | Train Output  | Paper                                          | Download                                                     |      |
+| -------- | ---------------------------- | ------------------ | --------------- | ----------------- | ------------- | ---------------------------------------------- | ------------------------------------------------------------ | ---- |
+| English  | CNN/DailyMail                | 3628; 175; 1088.84 | 1101; 12; 84.47 |                   |               | [Link](https://arxiv.org/pdf/1602.06023v5.pdf) | [Link](https://github.com/abisee/cnn-dailymail)              |      |
+|          | XSum (Extreme summarization) | 18962; 95; 661.01  | 107; 4; 31.63   | 23397; 95; 656.37 | 120; 2; 31.68 | [Link](https://arxiv.org/pdf/1808.08745v1.pdf) | [Link](https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset) |      |
+| Chances  | LCSTS                        | 786; 191; 329.88   | 72; 6; 32.20    | 2736; 171; 329.37 | 107; 4; 32.23 | --                                             | [原始数据](https://www.jianshu.com/p/8f52352f0748?tdsourcetag=s_pcqq_aiomsg) [处理后数据](https://pan.baidu.com/share/init?surl=80aTaZe-5jopVBBJhBrTWg) 提取码：duba |      |
 
 
 
@@ -30,11 +30,11 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ### Controllable Story Generation
 
-| Language | Dataset        | Paper                                                        | Download                                                     |
-| -------- | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| English  | ROCStories     | [Link](https://aclanthology.org/N16-1098.pdf)                | [Link](https://cs.rochester.edu/nlp/rocstories/)             |
-|          | WritingPrompts | [Link](https://arxiv.org/pdf/1805.04833v1.pdf)               | [Link](https://www.kaggle.com/ratthachat/writing-prompts)    |
-| Chinese  | LOT            | [Link](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00469/110537/LOT-A-Story-Centric-Benchmark-for-Evaluating) | [Link](https://cloud.tsinghua.edu.cn/d/0cf033b0c7c049be855d/) |
+| Language | Dataset        | Test Input       | Test Output       | Train Input      | Train Output      | Paper                                                        | Download                                                     |
+| -------- | -------------- | ---------------- | ----------------- | ---------------- | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| English  | ROCStories     | 203; 115; 140.44 | 34; 4; 12.76      | 182; 115; 140.56 | 29; 4; 12.74      | [Link](https://aclanthology.org/N16-1098.pdf)                | [Link](https://cs.rochester.edu/nlp/rocstories/)             |
+|          | WritingPrompts | 179; 95; 125.64  | 2912; 132; 793.14 | 208; 95; 126.23  | 8308; 115; 789.08 | [Link](https://arxiv.org/pdf/1805.04833v1.pdf)               | [Link](https://www.kaggle.com/ratthachat/writing-prompts)    |
+| Chinese  | LOT            | 329; 215; 254.73 | 568; 112; 275.07  | 324; 207; 253.90 | 624; 113; 273.10  | [Link](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00469/110537/LOT-A-Story-Centric-Benchmark-for-Evaluating) | [Link](https://cloud.tsinghua.edu.cn/d/0cf033b0c7c049be855d/) |
 
 
 
@@ -72,11 +72,11 @@ Natural Language Generation (NLG) is the process of producing a natural language
 - [Chinese-Alpaca-13b](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) 
 - [GPT4ALL ](https://huggingface.co/nomic-ai/gpt4all-13b-snoozy?text=My+name+is+Julien+and+I+like+to)
 - [Qwen-7b-chat](https://huggingface.co/Qwen/Qwen-7B-Chat)
-- [Baichuan-13b-chat](https://huggingface.co/baichuan-inc/Baichuan-13B-Chat)
+- [Baichuan2-13b-chat](https://huggingface.co/baichuan-inc/Baichuan-13B-Chat)
 -  [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b)
 - [Oasst-Pythia-12B ](https://huggingface.co/OpenAssistant)
 
 
 
-scp -o 'ProxyJump nuaanlp@18.tcp.cpolar.top:10491' xfni@172.18.101.151:/data/xfni/code/Evaluation_of_LLMs/data/Text_Summarization/XSum/* /Users/nixuanfan/Evaluation_of_LLMs/data/Text_Summarization/XSum/
+scp -o 'ProxyJump nuaanlp@18.tcp.cpolar.top:12174' xfni@172.18.101.151:/data/xfni/code/Evaluation_of_LLMs/data/dialogue.tar.gz  /Users/nixuanfan/
 
