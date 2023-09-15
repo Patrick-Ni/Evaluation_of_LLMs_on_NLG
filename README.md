@@ -9,11 +9,11 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ### Text Summarization
 
-| Language | Dataset                      | Test Input         | Test Output     | Train Input       | Train Output  | Paper                                          | Download                                                     |      |
-| -------- | ---------------------------- | ------------------ | --------------- | ----------------- | ------------- | ---------------------------------------------- | ------------------------------------------------------------ | ---- |
-| English  | CNN/DailyMail                | 3628; 175; 1088.84 | 1101; 12; 84.47 |                   |               | [Link](https://arxiv.org/pdf/1602.06023v5.pdf) | [Link](https://github.com/abisee/cnn-dailymail)              |      |
-|          | XSum (Extreme summarization) | 18962; 95; 661.01  | 107; 4; 31.63   | 23397; 95; 656.37 | 120; 2; 31.68 | [Link](https://arxiv.org/pdf/1808.08745v1.pdf) | [Link](https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset) |      |
-| Chances  | LCSTS                        | 786; 191; 329.88   | 72; 6; 32.20    | 2736; 171; 329.37 | 107; 4; 32.23 | --                                             | [原始数据](https://www.jianshu.com/p/8f52352f0748?tdsourcetag=s_pcqq_aiomsg) [处理后数据](https://pan.baidu.com/share/init?surl=80aTaZe-5jopVBBJhBrTWg) 提取码：duba |      |
+| Language | Dataset                      | Test Input         | Test Output     | Train Input       | Train Output  | Paper                                          | Download                                                     |
+| -------- | ---------------------------- | ------------------ | --------------- | ----------------- | ------------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| English  | CNN/DailyMail                | 3628; 175; 1088.84 | 1101; 12; 84.47 |                   |               | [Link](https://arxiv.org/pdf/1602.06023v5.pdf) | [Link](https://github.com/abisee/cnn-dailymail)              |
+|          | XSum (Extreme summarization) | 18962; 95; 661.01  | 107; 4; 31.63   | 23397; 95; 656.37 | 120; 2; 31.68 | [Link](https://arxiv.org/pdf/1808.08745v1.pdf) | [Link](https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset) |
+| Chances  | LCSTS                        | 786; 191; 329.88   | 72; 6; 32.20    | 2736; 171; 329.37 | 107; 4; 32.23 | --                                             | [原始数据](https://www.jianshu.com/p/8f52352f0748?tdsourcetag=s_pcqq_aiomsg) [处理后数据](https://pan.baidu.com/share/init?surl=80aTaZe-5jopVBBJhBrTWg) 提取码：duba |
 
 
 
@@ -60,21 +60,21 @@ Natural Language Generation (NLG) is the process of producing a natural language
 ### LLMs
 
 - [ChatGPT](https://chat.openai.com/auth/login)
-- [ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b) $\checkmark$ 
+- ~~[ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b)~~
 - [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)  $\checkmark$ 
 - [Flan-T5-XXL](https://huggingface.co/google/flan-t5-xxl) $\checkmark$ 
-- [FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0) $\checkmark$ 
-- [Open-LLaMA](https://github.com/openlm-research/open_llama) 
-- [LLaMA2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)
+- ~~[FastChat-T5-3B](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)~~
+- ~~[Open-LLaMA](https://github.com/openlm-research/open_llama)~~
+- [LLaMA2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) 
 - [Vicuna-13B](https://github.com/lm-sys/FastChat) $\checkmark$ 
 - [Chinese-Vicuna-13B](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-13b-belle-and-guanaco) 
 - [Alpaca-lora-7B](https://github.com/tatsu-lab/stanford_alpaca)
 - [Chinese-Alpaca-13b](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) 
-- [GPT4ALL ](https://huggingface.co/nomic-ai/gpt4all-13b-snoozy?text=My+name+is+Julien+and+I+like+to)
+- ~~[GPT4ALL ](https://huggingface.co/nomic-ai/gpt4all-13b-snoozy?text=My+name+is+Julien+and+I+like+to)~~ 
 - [Qwen-7b-chat](https://huggingface.co/Qwen/Qwen-7B-Chat)$\checkmark$ 
 - [Baichuan2-13b-chat](https://huggingface.co/baichuan-inc/Baichuan-13B-Chat)$\checkmark$ 
--  [Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b)
-- [Oasst-Pythia-12B ](https://huggingface.co/OpenAssistant)
+-  ~~[Dolly-12B](https://huggingface.co/databricks/dolly-v2-12b)~~ 
+- [Oasst-Pythia-12B ](https://huggingface.co/OpenAssistant) 
 
 
 
