@@ -50,10 +50,12 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ### Style Transfer (Paraphrasing & Simplification & formal-informal)
 
-| Language | Dataset | Paper                                                        | Download                                                     |
-| -------- | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| English  | Yelp    | [Link](https://arxiv.org/abs/1705.09655)                     | [Link](https://github.com/shentianxiao/language-style-transfer/tree/master) |
-|          | Bible   | [Link](https://royalsocietypublishing.org/doi/full/10.1098/rsos.171920) | [Link](https://github.com/keithecarlson/StyleTransferBibleData) |
+| Language | Dataset   | Paper                                    | Download                                                     |
+| -------- | --------- | ---------------------------------------- | ------------------------------------------------------------ |
+| English  | Yelp      | [Link](https://arxiv.org/abs/1705.09655) | [Link](https://github.com/shentianxiao/language-style-transfer/tree/master) |
+|          |           |                                          |                                                              |
+|          | ParaNMT   |                                          |                                                              |
+|          | WikiLarge |                                          |                                                              |
 
 
 
