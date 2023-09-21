@@ -48,7 +48,7 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 
 
-### Style Transfer
+### Style Transfer (Paraphrasing & Simplification % formal-informal)
 
 | Language | Dataset | Paper                                                        | Download                                                     |
 | -------- | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
