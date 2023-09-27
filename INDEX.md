@@ -4,7 +4,7 @@
 | ChatGLM2-6B              | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ |
 | Flan-T5-XXL              | $\checkmark$ | $\checkmark$ | --           | $\checkmark$ | $\checkmark$ | $\checkmark$ | --           |
 | LLaMA-2-7B-Chat          | $\checkmark$ | $\checkmark$ | --           | $\checkmark$ | $\checkmark$ | $\checkmark$ | --           |
-| LLaMA-2-13B-Chat         |              |              |              |              |              |              |              |
+| LLaMA-2-13B-Chat         | $\checkmark$ | $\checkmark$ | --           | $\checkmark$ | $\checkmark$ | $\checkmark$ | --           |
 | LLaMA-2-Chinese-13B-Chat |              |              |              |              |              |              |              |
 | Vicuna-13B-v1.5-16k      |              |              |              |              |              |              |              |
 | Chinese-Alpaca-2-13b     |              |              |              |              |              |              |              |
@@ -20,7 +20,7 @@
 | ChatGLM2-6B              | $\checkmark$ | $\checkmark$ | $\checkmark$ |        |       |          |
 | Flan-T5-XXL              | $\checkmark$ | $\checkmark$ | --           |        |       |          |
 | LLaMA-2-7B-Chat          | $\checkmark$ | $\checkmark$ | --           |        |       |          |
-| LLaMA-2-13B-Chat         |              |              |              |        |       |          |
+| LLaMA-2-13B-Chat         | $\checkmark$ | $\checkmark$ | --           |        |       |          |
 | LLaMA-2-Chinese-13B-Chat |              |              |              |        |       |          |
 | Vicuna-13B-v1.5-16k      |              |              |              |        |       |          |
 | Chinese-Alpaca-2-13b     |              |              |              |        |       |          |
