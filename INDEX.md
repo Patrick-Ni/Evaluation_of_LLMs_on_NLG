@@ -5,9 +5,9 @@
 | Flan-T5-XXL              | $\checkmark$ | $\checkmark$ | --           | $\checkmark$ | $\checkmark$ | $\checkmark$ | --           |
 | LLaMA-2-7B-Chat          | $\checkmark$ | $\checkmark$ | --           | $\checkmark$ | $\checkmark$ | $\checkmark$ | --           |
 | LLaMA-2-13B-Chat         | $\checkmark$ | $\checkmark$ | --           | $\checkmark$ | $\checkmark$ | $\checkmark$ | --           |
-| LLaMA-2-Chinese-13B-Chat |              |              |              |              |              |              |              |
-| Vicuna-13B-v1.5-16k      |              |              |              |              |              |              |              |
-| Chinese-Alpaca-2-13b     |              |              |              |              |              |              |              |
+| LLaMA-2-Chinese-13B-Chat | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ |
+| Vicuna-13B-v1.5-16k      | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ |
+| Chinese-Alpaca-2-13b     | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ |
 | Qwen-7b-chat             | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ |
 | Baichuan2-13b-chat       | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ |
 | Oasst-Pythia-12B         | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ |
@@ -21,9 +21,9 @@
 | Flan-T5-XXL              | $\checkmark$ | $\checkmark$ | --           |        |       |          |
 | LLaMA-2-7B-Chat          | $\checkmark$ | $\checkmark$ | --           |        |       |          |
 | LLaMA-2-13B-Chat         | $\checkmark$ | $\checkmark$ | --           |        |       |          |
-| LLaMA-2-Chinese-13B-Chat |              |              |              |        |       |          |
-| Vicuna-13B-v1.5-16k      |              |              |              |        |       |          |
-| Chinese-Alpaca-2-13b     |              |              |              |        |       |          |
+| LLaMA-2-Chinese-13B-Chat | $\checkmark$ | $\checkmark$ | $\checkmark$ |        |       |          |
+| Vicuna-13B-v1.5-16k      | $\checkmark$ | $\checkmark$ | $\checkmark$ |        |       |          |
+| Chinese-Alpaca-2-13b     | $\checkmark$ | $\checkmark$ | $\checkmark$ |        |       |          |
 | Qwen-7b-chat             | $\checkmark$ | $\checkmark$ | $\checkmark$ |        |       |          |
 | Baichuan2-13b-chat       | $\checkmark$ | $\checkmark$ | $\checkmark$ |        |       |          |
 | Oasst-Pythia-12B         | $\checkmark$ | $\checkmark$ | $\checkmark$ |        |       |          |

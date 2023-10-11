@@ -40,11 +40,11 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ### Data-to-Text
 
-| Language | Dataset  | Paper                                                        |
-| -------- | -------- | ------------------------------------------------------------ |
-| English  | WebNLG   | [Paper](https://aclanthology.org/P17-1017.pdf) & [Data](https://webnlg-challenge.loria.fr/) |
-|          | ToTTo    | [Paper](https://arxiv.org/pdf/2004.14373v3.pdf) & [Data](https://github.com/google-research-datasets/totto) |
-|          | Rotowire | [Paper](https://arxiv.org/pdf/1707.08052v1.pdf) & [Data](https://github.com/harvardnlp/boxscore-data) |
+| Language | Dataset  | Test Input       | Test Output   | Train Input | Train Output | Paper                                                        |
+| -------- | -------- | ---------------- | ------------- | ----------- | ------------ | ------------------------------------------------------------ |
+| English  | WebNLG   | 324; 156; 201.68 | 158; 7; 38.55 |             |              | [Paper](https://aclanthology.org/P17-1017.pdf) & [Data](https://webnlg-challenge.loria.fr/) |
+|          | ToTTo    |                  |               |             |              | [Paper](https://arxiv.org/pdf/2004.14373v3.pdf) & [Data](https://github.com/google-research-datasets/totto) |
+|          | Rotowire |                  |               |             |              | [Paper](https://arxiv.org/pdf/1707.08052v1.pdf) & [Data](https://github.com/harvardnlp/boxscore-data) |
 
 
 
