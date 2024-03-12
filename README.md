@@ -40,11 +40,11 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 ### Data-to-Text
 
-| Language | Dataset  | Test Input       | Test Output   | Train Input | Train Output | Paper                                                        |
-| -------- | -------- | ---------------- | ------------- | ----------- | ------------ | ------------------------------------------------------------ |
-| English  | WebNLG   | 324; 156; 201.68 | 158; 7; 38.55 |             |              | [Paper](https://aclanthology.org/P17-1017.pdf) & [Data](https://webnlg-challenge.loria.fr/) |
-|          | ToTTo    |                  |               |             |              | [Paper](https://arxiv.org/pdf/2004.14373v3.pdf) & [Data](https://github.com/google-research-datasets/totto) |
-|          | Rotowire |                  |               |             |              | [Paper](https://arxiv.org/pdf/1707.08052v1.pdf) & [Data](https://github.com/harvardnlp/boxscore-data) |
+| Language | Dataset       | Test Input       | Test Output      | Train Input | Train Output | Paper                                                        |
+| -------- | ------------- | ---------------- | ---------------- | ----------- | ------------ | ------------------------------------------------------------ |
+| English  | WebNLG        | 324; 156; 201.68 | 158; 7; 38.55    |             |              | [Paper](https://aclanthology.org/P17-1017.pdf) & [Data](https://webnlg-challenge.loria.fr/) |
+|          | Rotowire      | 813; 177; 434.31 | 998; 191; 460.73 |             |              | [Paper](https://arxiv.org/pdf/1707.08052v1.pdf) & [Data](https://github.com/harvardnlp/boxscore-data) |
+| Chinese  | Advertisement | 453; 222; 288    | 364; 93; 193     |             |              | [Paper](https://arxiv.org/abs/1908.06605) & [Data](https://github.com/ZhihongShao/Planning-based-Hierarchical-Variational-Model) |
 
 
 
@@ -63,11 +63,11 @@ Natural Language Generation (NLG) is the process of producing a natural language
 
 - [ChatGPT](https://chat.openai.com/auth/login)
 - [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)  $\checkmark$ 
-- [Flan-T5-XXL](https://huggingface.co/google/flan-t5-xxl) $\checkmark$ 
+- [Flan-T5-XXL](https://huggingface.co/google/flan-t5-xxl) $\dots$
 - [LLaMA2-7b-chat ](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)$\checkmark$ 
 - [LLaMA2-13b-chat](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)$\checkmark$
 - [Llama2-Chinese-13b-Chat](https://huggingface.co/FlagAlpha/Llama2-Chinese-13b-Chat) $\checkmark$
-- [Vicuna-13B-v1.5-16k](https://github.com/lm-sys/FastChat)$\dots$
+- [Vicuna-13B-v1.5-16k](https://github.com/lm-sys/FastChat) $\checkmark$
 - [Chinese-Alpaca-2-13b](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) $\checkmark$
 - [Qwen-7b-chat](https://huggingface.co/Qwen/Qwen-7B-Chat)$\checkmark$ 
 - [Baichuan2-13b-chat](https://huggingface.co/baichuan-inc/Baichuan-13B-Chat)$\checkmark$ 
