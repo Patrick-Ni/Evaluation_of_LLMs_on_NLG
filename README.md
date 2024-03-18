@@ -82,5 +82,3 @@ Natural Language Generation (NLG) is the process of producing a natural language
 - 模型架构不同 （chatglm2-6b vs llama2-7b-chat，llama2-13b-chat vs oasst-pythia-12b，flan-t5-xxl）
 - 模型微调数据集不同 （Qwen, Baichuan2, chinsese-alpaca2, vicuna）
 
-scp -o 'ProxyJump nuaanlp@8.tcp.cpolar.top:14989' xfni@172.18.101.150:/data/share/LLMs/llama2/llama-2-7b-chat/params.json  /Users/nixuanfan/
-
